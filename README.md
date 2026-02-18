@@ -106,11 +106,11 @@ Developed a comprehensive Bank Loan Intelligence System that analyzes over $435M
  
  This dashboard allows the Sales Director to pivot from 'General Observation' to 'Targeted Action' for example, specifically investigating the November slump or renegotiating low-margin accounts identified in the scatter plot.
 
-![Dashboard](Images/F1.PNG)
+![Dashboard](Images/A1.PNG)
 
-![Dashboard](Images/f2.PNG)
+![Dashboard](Images/A2.PNG)
 
-![Dashboard](Images/F3.PNG)
+![Dashboard](Images/A3.PNG)
 
 
 ## Data Transformation
