@@ -20,8 +20,6 @@
 
 ## Project brief 
 
-This project features a 3 page, interactive Power BI dashboard designed for Plant Co. to monitor global performance across three key business pillars: Sales, Quantity, and Gross Profit.
-
 The dashboard provides a detailed breakdown experience, allowing stakeholders to identify not just what happened, but why it happened by comparing Month to Date (MTD) performance against the Month over Month (MoM).
 
 Developed a comprehensive Bank Loan Intelligence System that analyzes over $435M in loan data to monitor portfolio health and borrower risk. By visualizing key metrics like a 13.3% average DTI and identifying Debt Consolidation as the primary loan driver, this project provides actionable insights to improve lending strategies and maintain a 86.2% Good Loan rate.
