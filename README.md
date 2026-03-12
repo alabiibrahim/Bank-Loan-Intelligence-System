@@ -216,21 +216,6 @@ CALCULATE(
 4. Investigate the "60-month" loan terms more closely; longer terms often carry higher risks. Consider stricter credit requirements for 5-year loans.
 
 
-## Challenges & Solution 
-
-1. The stakeholders needed to see Sales, Quantity, and Gross Profit performance, but putting all three on one page created a cluttered and "noisy" dashboard that was hard to read.
-
-    - How I solved it: I created a "Slicer Table" for easy toggling between 3 key pillars of business using DAX. This allowed the user to switch the entire context of the page with one click, maintaining a clean and simple report while providing three times the analytical depth.
-
-
-2. Standard YTD functions can sometimes fail if the fiscal calendar is non-standard or if there are gaps in the data, leading to misleading variance figures.
-
-    - How I solved it: I created a Date Table and utilized SAMEPERIODLASTYEAR combined with TOTALYTD logic to ensure the waterfall charts accurately show comparisons for the $512K sales variance.
-
-
-3. With hundreds of accounts, a standard bar chart was insufficient for identifying profitability outliers.
-
-    - How I solved it: I used a Scatter Plot with a Profitability Quadrant. By adding a constant line at the 20K sales mark and a GP% axis, I created an instant visual diagnostic tool to separate "High-Volume/Low-Margin" accounts from "Premium" partners.
 
 
 
