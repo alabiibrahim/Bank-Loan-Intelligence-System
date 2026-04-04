@@ -24,16 +24,6 @@ The dashboard provides a detailed breakdown experience, allowing stakeholders to
 
 Developed a comprehensive Bank Loan Intelligence System that analyzes over $435M in loan data to monitor portfolio health and borrower risk. By visualizing key metrics like a 13.3% average DTI and identifying Debt Consolidation as the primary loan driver, this project provides actionable insights to improve lending strategies and maintain a 86.2% Good Loan rate.
 
-### Benefit of data modeling
-
-- Improves query performance and report responsiveness
-
-- Simplifies DAX logic by enforcing a single-direction filter flow
-
-- Ensures accurate time-intelligence calculations
-
-- Follows industry best practices for Power BI and enterprise BI solutions.
-
 
 ## Questions
 
@@ -70,17 +60,28 @@ Developed a comprehensive Bank Loan Intelligence System that analyzes over $435M
 
 ![Data](https://github.com/alabiibrahim/Financial-Analysis/blob/main/Dataset/Financial%20Analysis.xls)
 
+
 ## Tools
 
 | Tools | Purpose | 
 | --- | --- | 
-| Power BI | DAX, Power Query | 
+| SQL, Power BI | DAX, Power Query | 
 
 
 ## Stages 
-- Load data to Power Query, Standardize data-types and remove duplicates.
+
+- Import cleaned and process data in SQL.
+
+- Export data from SQL to PowerBI (power query) for Interactive and dynamic visualization.
+
+- Modeled data to (1) Improves query performance and report responsiveness. (2) Simplifies DAX logic by enforcing a single-direction filter flow.
+
+ (3) Ensures accurate time-intelligence calculations. (4) It follows industry best practices for Power BI solutions.
+
 - Create a custom 'slicer' as a toggle button to view across 2 pillars of business. (Good and Bad Loans), and to return "All" if slicer is cleared.
+
 - Wrote DAX measures to calculate for Dynamic report.
+
 
 
 ## Chart types and Why? 
@@ -98,6 +99,31 @@ Developed a comprehensive Bank Loan Intelligence System that analyzes over $435M
 - Bar - It display the categorical distribution of loan status between Charged off (Bad), Current and Fully Paid (Good).
 
 - Line - It is used to show the monthly trends of applications, funded, and received amount. 
+
+## Processing - SQL.
+
+![SQLanalysis](Images/001.PNG)
+
+
+![SQLanalysis](Images/002.PNG)
+
+
+![SQLanalysis](Images/003.PNG)
+
+
+![SQLanalysis](Images/004.PNG)
+
+
+![SQLanalysis](Images/005.PNG)
+
+
+![SQLanalysis](Images/006.PNG)
+
+
+![SQLanalysis](Images/007.PNG)
+
+
+![SQLanalysis](Images/008.PNG)
 
 
 ## Dashboard
