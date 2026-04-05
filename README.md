@@ -8,14 +8,13 @@
 - [Questions](#Questions)
 - [Data source](#Datasource)
 - [Tools](#Tools)
-- [Dashboards](#Dashboard)
-- [Chart types and why](#ChartTypesandWhy?)
 - [Stages](#Stages)
+- [Chart types and why](#ChartTypesandWhy?)
+- [Processing](#Processing-SQL)
+- [Dashboards](#Dashboard)
 - [Data Transformation](#DataTransformation)
 - [Findings](#Findings)
 - [Recommendations](#Recommendations)
-- [challenges&solution](#Chalenges&Solution)
-
 
 
 ## Project brief 
@@ -72,9 +71,9 @@ Developed a comprehensive Bank Loan Intelligence System that analyzes over $435M
 
 - Import cleaned and process data in SQL.
 
-- Export data from SQL to PowerBI (power query) for Interactive and dynamic visualization.
+- Export processed data from SQL to PowerBI (power query) for Interactive and dynamic visualization.
 
-- Modeled data to (1) Improves query performance and report responsiveness. (2) Simplifies DAX logic by enforcing a single-direction filter flow.
+- Modeled data to; (1) Improves query performance and report responsiveness. (2) Simplifies DAX logic by enforcing a single-direction filter flow.
 
  (3) Ensures accurate time-intelligence calculations. (4) It follows industry best practices for Power BI solutions.
 
